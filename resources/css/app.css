@@ -42,9 +42,44 @@ section {
   animation: fade-down 1s;
 }
 
+/* Project */
 #project{
     text-align: center;
     padding-bottom: 50px;
+}
+
+/* About */
+#about{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.text-wrapper{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    text-align: justify;
+    border-radius: 8px;
+}
+
+/* Contacts */
+#contacts{
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons svg {
+    width: 70px;
+    height: 70px;
 }
 
 /* Animation */

@@ -1,7 +1,6 @@
 import React from "react";
 
 function Footer(){
-    console.log("Footer loaded");
     return (
         <footer style={{
             backgroundColor: 'black',

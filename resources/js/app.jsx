@@ -10,6 +10,8 @@ import Footer from './components/Footer';
 
 import Hero from './pages/Hero'
 import Project from './pages/Project';
+import About from './pages/About';
+import Contacts from './pages/Contacts';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Navbar />
         <Hero />
         <Project />
+        <About />
+        <Contacts />
         <Footer />
      </>
   );
