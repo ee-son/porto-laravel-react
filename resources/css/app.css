@@ -4,6 +4,37 @@ section {
   padding-right: 20px;
 }
 
+/* Navbar */
+.bg-white {
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.bg-white .nav-link:hover {
+  color: gray;
+}
+
+.bg-inverse {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.bg-inverse .nav-link:hover {
+  color: gray;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  transition: color 0.3s;
+}
+
+.bg-inverse .nav-link {
+  color: white;
+}
+
+
+/* Hero */
 #home {
   padding-top: 300px;
   padding-bottom: 300px;
@@ -11,6 +42,12 @@ section {
   animation: fade-down 1s;
 }
 
+#project{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* Animation */
 @keyframes fade-down {
   from {
     opacity: 0;

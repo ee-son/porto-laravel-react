@@ -39,9 +39,6 @@ function Navbar() {
             <a className="nav-link" href="#home">
               Home
             </a>
-            <a className="nav-link" href="#tech">
-              Tech
-            </a>
             <a className="nav-link" href="#project">
               Project
             </a>
